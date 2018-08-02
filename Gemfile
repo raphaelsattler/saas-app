@@ -5,6 +5,9 @@ ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'twitter-bootstrap-rails', '~> 4.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
