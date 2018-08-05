@@ -11,6 +11,7 @@ gem 'twitter-bootstrap-rails', '~> 4.0'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'devise-bootstrap-views', '~> 0.0.11'
 gem 'milia', '~> 1.3', '>= 1.3.1'
+gem 'bootstrap-datepicker-rails', '~> 1.8', '>= 1.8.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
