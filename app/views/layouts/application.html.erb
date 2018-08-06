@@ -12,7 +12,7 @@
     <!-- For third-generation iPad with high-resolution Retina display: -->
     <!-- Size should be 144 x 144 pixels -->
     
-
+    <%= javascript_include_tag "https://js.stripe.com/v2/" %>
     <%= javascript_include_tag "application" %>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -40,6 +40,9 @@
                 new_member_path,
                 class: 'navbar-link btn btn-primary' %>
               </li>
+        <li>
+          <%= link_to "<i class='fa fa-briefcase'></i> Change Plan".html_safe, edit_plan_path, class: 'btn btn-primary navbar-link' %>
+        </li>
             <% end %>     
           </ul>
           <ul class="nav navbar-right col-md-4">

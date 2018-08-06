@@ -1,4 +1,3 @@
-
 class ConfirmationsController < Milia::ConfirmationsController
 
   # PUT /resource/confirmation
